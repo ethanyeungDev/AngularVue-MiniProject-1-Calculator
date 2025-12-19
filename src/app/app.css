@@ -1,0 +1,31 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+}
+
+.calcTitles{
+    font-weight: normal;
+
+}
+
+.calcFieldset{
+    display: flex;
+    gap: 1.5rem;
+    /* What have borders done for us? */
+    border: none;
+}
+
+.calcFieldset p{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    height: 1.5em;
+}
+
+.calcInput{
+    height: 1.5em;
+    line-height: 1.5em;
+    width: 3rem;
+    text-align: center;
+    box-sizing: border-box;
+}
